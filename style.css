@@ -1,0 +1,85 @@
+body {
+  background-color: rgb(240,240,240);
+  font-family: 'Karla', sans-serif;
+  color:#23A393;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+h1,h2{
+  font-size: 30px;
+  font-family: 'PT Sans', sans-serif;
+  color:#20716a;
+  line-height: 30px;
+}
+
+a{
+  text-decoration: none;
+  color:#ffc0c2;
+}
+
+a:hover{
+  color:#f7e9e3;
+}
+
+.container {
+  width: 600px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+.text-center {
+  text-align: center;
+}
+.card-white {
+  background: rgb(245,245,245);
+  padding: 30px;
+  margin: 30px;
+  border: 1px solid lightgrey;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.photo-roundcorner{
+  border-radius: 5%
+}
+
+#connect_btn {
+  background-color: #ffc0c2;
+  color:white;
+  padding: 1px 5px;
+  border-radius: 5px;
+}
+
+#connect_btn:hover{
+  background-color:#f7e9e3;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 600px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
